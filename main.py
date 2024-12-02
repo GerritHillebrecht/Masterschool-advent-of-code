@@ -1,4 +1,4 @@
-from challenges.day_1 import start_day_1
+import challenges
 
 if __name__ == '__main__':
-    start_day_1()
+    challenges.start_day_2()

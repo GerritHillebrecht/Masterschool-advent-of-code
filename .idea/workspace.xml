@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 1">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputs/day_2_input_reactor_levels.txt" afterDir="false" />
+    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: refactored for multiple day usage">
+      <change afterPath="$PROJECT_DIR$/challenges/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filestorage/day_2_reactor_levels.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inputs/day_1_input_location_ids.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_team_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/filestorage/list_team_1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_team_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/filestorage/list_team_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/day_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/day_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/day_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/day_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filestorage/list_team_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/filestorage/day_1_list_team_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filestorage/list_team_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/filestorage/day_1_list_team_2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/storage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +61,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Development\Advent of code\Day1\utils" />
       <recent name="C:\Development\Advent of code\Day1\filestorage" />
       <recent name="C:\Development\Advent of code\Day1\inputs" />
     </key>
@@ -112,11 +114,20 @@
       <option name="project" value="LOCAL" />
       <updated>1733132443208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[feat]: refactored for multiple day usage">
+      <option name="closed" value="true" />
+      <created>1733133443523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733133443523</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[feat]: added day 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]: added day 1" />
+    <MESSAGE value="[feat]: refactored for multiple day usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]: refactored for multiple day usage" />
   </component>
 </project>

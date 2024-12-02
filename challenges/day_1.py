@@ -2,11 +2,11 @@ from collections import Counter
 from os.path import join
 
 from config import dirname_input_files
-from utils import save_to_file, read_from_file
+from utils.storage import save_to_file, read_from_file
 
 filename_input = "day_1_input_location_ids.txt"
-filename_team_one = "list_team_1.json"
-filename_team_two = "list_team_2.json"
+filename_team_one = "day_1_list_team_1.json"
+filename_team_two = "day_1_list_team_2.json"
 
 
 def create_separate_lists(input_file):

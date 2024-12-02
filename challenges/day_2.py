@@ -47,20 +47,20 @@ def is_safe_report(report):
 
 
 def is_safe_report_with_dampener(report):
-    is_safe = is_safe_report(report)
+    if is_safe_report(report):
+        return True
 
-    if not is_safe:
-        for i in range(len(report)):
-            is_safe_without_level = is_safe_report([
-                level
-                for idx, level in enumerate(report)
-                if idx != i
-            ])
+    for index in range(len(report)):
+        shortened_report = [
+            level
+            for idx, level in enumerate(report)
+            if idx != index
+        ]
 
-            if is_safe_without_level:
-                return True
+        if is_safe_report(shortened_report):
+            return True
 
-    return is_safe
+    return False
 
 
 def is_monotonic(report):

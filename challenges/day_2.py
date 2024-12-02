@@ -51,11 +51,8 @@ def is_safe_report_with_dampener(report):
         return True
 
     for index in range(len(report)):
-        shortened_report = [
-            level
-            for idx, level in enumerate(report)
-            if idx != index
-        ]
+        shortened_report = [*report]
+        del shortened_report[index]
 
         if is_safe_report(shortened_report):
             return True

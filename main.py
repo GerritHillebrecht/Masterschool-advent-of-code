@@ -1,5 +1,6 @@
 import challenges
 
 if __name__ == '__main__':
-    challenges.start_day_1()
-    challenges.start_day_2()
+    challenges.day_1.start_day_challenge()
+    challenges.day_2.start_day_challenge()
+    challenges.day_3.start_day_challenge()

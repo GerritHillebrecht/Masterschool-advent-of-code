@@ -52,7 +52,7 @@ def get_similarities_between_lists(list_team_one, list_team_two):
     )
 
 
-def start_day_1():
+def start_day_challenge():
     # Preparation, create separate lists
     create_separate_lists(filename_input)
 

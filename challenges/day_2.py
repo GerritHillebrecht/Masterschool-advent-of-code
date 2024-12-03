@@ -71,7 +71,7 @@ def is_within_difference_limit(report, limit=MAX_DIFFERENCE):
     return all(abs(report[i] - report[i + 1]) <= limit for i in range(len(report) - 1))
 
 
-def start_day_2():
+def start_day_challenge():
     # Create JSON File
     create_json_file()
 

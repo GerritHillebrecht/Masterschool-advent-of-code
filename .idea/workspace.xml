@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 2">
+      <change afterPath="$PROJECT_DIR$/challenges/day_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/day_3_input_corrupted_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/day_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/day_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/challenges/day_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/day_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GerritHillebrecht"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GerritHillebrecht&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GerritHillebrecht/Masterschool-advent-of-code.git",
-    "accountId": "d7b14612-a7e5-49a7-9803-9010bf674d73"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GerritHillebrecht/Masterschool-advent-of-code.git&quot;,
+    &quot;accountId&quot;: &quot;d7b14612-a7e5-49a7-9803-9010bf674d73&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -130,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733139398167</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[feat]: added day 2">
+      <option name="closed" value="true" />
+      <created>1733140343945</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733140343945</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[feat]: added day 2">
+      <option name="closed" value="true" />
+      <created>1733140837968</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733140837968</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -14,8 +14,10 @@ def count_mas_tree(grid):
     # Have all "hit" coordinates
     return len([
         (row, col)
+        # Leave the outer lines, since there can't be hits
         for row in range(1, num_rows - 1)
         for col in range(1, num_cols - 1)
+        # Check both patterns for S and M
         if grid[row][col] == "A" and all(
             (grid[row + delta_row][col + delta_col] == 'M' and grid[row - delta_row][col - delta_col] == 'S') or
             (grid[row + delta_row][col + delta_col] == 'S' and grid[row - delta_row][col - delta_col] == 'M')

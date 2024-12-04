@@ -7,8 +7,9 @@ def count_mas_tree(grid):
     num_cols = len(grid[0])
 
     x_mas_patterns = [
-        [(-1, -1), (1, 1)],  # from top left to bottom right
-        [(-1, 1), (1, -1)],  # from top right to bottom left
+        # Opposites are determined within list comprehension
+        (-1, -1),  # from top left to bottom right
+        (-1, 1),  # from top right to bottom left
     ]
 
     # Have all "hit" coordinates
@@ -21,8 +22,7 @@ def count_mas_tree(grid):
         if grid[row][col] == "A" and all(
             (grid[row + delta_row][col + delta_col] == 'M' and grid[row - delta_row][col - delta_col] == 'S') or
             (grid[row + delta_row][col + delta_col] == 'S' and grid[row - delta_row][col - delta_col] == 'M')
-            for pattern in x_mas_patterns
-            for delta_row, delta_col in pattern
+            for delta_row, delta_col in x_mas_patterns
         )
     ])
 

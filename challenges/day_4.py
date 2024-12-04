@@ -44,8 +44,8 @@ def count_word_appearences(grid, word):
         (-1, 1)  # diagonal up-right
     ]
 
-    return sum(
-        1
+    return len(list(
+        (row, col)
         for row in range(num_rows)
         for col in range(num_cols)
         for delta_row, delta_col in pattern
@@ -55,7 +55,7 @@ def count_word_appearences(grid, word):
             grid[row + i * delta_row][col + i * delta_col] == word[i]
             for i in range(word_length)
         )
-    )
+    ))
 
 
 def start_day_challenge():

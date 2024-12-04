@@ -11,6 +11,7 @@ def count_mas_tree(grid):
         [(-1, 1), (1, -1)],  # from top right to bottom left
     ]
 
+    # Have all "hit" coordinates
     return len([
         (row, col)
         for row in range(1, num_rows - 1)

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 2">
-      <change afterPath="$PROJECT_DIR$/challenges/day_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputs/day_3_input_corrupted_data.txt" afterDir="false" />
+    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 3">
+      <change afterPath="$PROJECT_DIR$/challenges/day_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/day_4_input_xmas_word_search.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/challenges/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/day_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/day_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/day_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/day_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +47,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.day_3.executor": "Run",
+    "Python.day_4.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Development\Advent of code\Day1\utils" />
@@ -152,13 +152,22 @@
       <option name="project" value="LOCAL" />
       <updated>1733140837968</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[feat]: added day 3">
+      <option name="closed" value="true" />
+      <created>1733214722398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733214722398</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[feat]: added day 1" />
     <MESSAGE value="[feat]: refactored for multiple day usage" />
     <MESSAGE value="[feat]: added day 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]: added day 2" />
+    <MESSAGE value="[feat]: added day 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]: added day 3" />
   </component>
 </project>

@@ -44,21 +44,18 @@ def count_word_appearences(grid, word):
         (-1, 1)  # diagonal up-right
     ]
 
-    for row in range(num_rows):
-        for col in range(num_cols):
-            for delta_row, delta_col in pattern:
-                if all(
-                        # check grid edges
-                        0 <= row + i * delta_row < num_rows and
-                        0 <= col + i * delta_col < num_cols and
-
-                        # check if characters match by increasing "radius" around char by 1 for each letter in word
-                        grid[row + i * delta_row][col + i * delta_col] == word[i]
-                        for i in range(word_length)
-                ):
-                    count += 1
-
-    return count
+    return sum(
+        1
+        for row in range(num_rows)
+        for col in range(num_cols)
+        for delta_row, delta_col in pattern
+        if all(
+            0 <= row + i * delta_row < num_rows and
+            0 <= col + i * delta_col < num_cols and
+            grid[row + i * delta_row][col + i * delta_col] == word[i]
+            for i in range(word_length)
+        )
+    )
 
 
 def start_day_challenge():

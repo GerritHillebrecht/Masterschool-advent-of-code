@@ -91,7 +91,6 @@ def sort_update(update: list[int], requirements: dict[int, set[int]]):
             for idx in range(index):
                 previous_page = sorted_update[idx]
                 if previous_page in page_restrictions:
-                    print(f"Swapping {sorted_update[index]} with {sorted_update[idx]}")
                     sorted_update.pop(index)
                     sorted_update.insert(idx, page)
                     break
@@ -104,7 +103,7 @@ def start_day_challenge():
     requirements: dict[int, set[int]] = get_requirements()
 
     # 9. Star: Sum of middle number of correct updates
-    print(f"9. {get_sum_middle_pages(requirements, updates)}")
+    print(f"9. Sum of middle page numbers of correct updates:  {get_sum_middle_pages(requirements, updates)}")
 
     # 10. Star: Sum of middle number of incorrect Updates
-    print(f"10. {get_sum_of_incorrect_updates(updates, requirements)}")
+    print(f"10. Sum of middle page numbers of incorrect updates after sorting: {get_sum_of_incorrect_updates(updates, requirements)}")

@@ -96,14 +96,7 @@ def check_for_loops(lab_map):
 
 def calculate_route(lab_map):
     current_position = calculate_current_position(lab_map)
-
-    def calculate_steps(lab_map):
-        return sum(
-            1
-            for row in lab_map
-            for col in row
-            if col == "X"
-        )
+    rows, cols = len(lab_map), len(lab_map[0])
 
     def move_forward(current_row, current_col, direction="north"):
         y, x = move_directions[direction]
@@ -112,23 +105,21 @@ def calculate_route(lab_map):
 
         lab_map[current_row][current_col] = "X"
 
-        if not all([
-            0 <= next_row <= len(lab_map) - 1,
-            0 <= next_col <= len(lab_map[0])
-        ]):
+        if not (0 <= next_row < rows and 0 <= next_col < cols):
             return
 
         next_step = lab_map[next_row][next_col]
 
-        if next_step in [".", "X"]:
-            return move_forward(current_row=next_row, current_col=next_col, direction=direction)
-
         if next_step == "#":
-            next_direction = get_next_direction(direction)
-            y, x = move_directions[next_direction]
+            direction = get_next_direction(direction)
+            y, x = move_directions[direction]
             next_row = current_row + y
             next_col = current_col + x
-            return move_forward(current_row=next_row, current_col=next_col, direction=next_direction)
+
+        move_forward(current_row=next_row, current_col=next_col, direction=direction)
+
+    def calculate_steps(lab_map):
+        return sum(col == "X" for row in lab_map for col in row)
 
     move_forward(current_position[0], current_position[1])
     return calculate_steps(lab_map)

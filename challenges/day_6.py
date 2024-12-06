@@ -6,18 +6,15 @@ from config import dirname_input_files
 sys.setrecursionlimit(10000)
 
 SYMBOLS = [".", "#", "X"]
-LOOP_SYMBOL = "0"
-
-move_directions = {"north": (-1, 0), "east": (0, 1), "south": (1, 0), "west": (0, -1)}
-
-direction_symbols = {
+MOVE_DIRECTIONS = {"north": (-1, 0), "east": (0, 1), "south": (1, 0), "west": (0, -1)}
+DIRECTIONS = [*MOVE_DIRECTIONS]
+DIRECTION_SYMBOLS = {
     "north": "^",
     "east": ">",
     "south": "v",
     "west": "<"
 }
 
-directions = [*move_directions]
 
 
 def get_map():
@@ -29,9 +26,9 @@ def get_map():
 
 
 def get_next_direction(current_direction):
-    current_index = directions.index(current_direction)
-    next_index = (current_index + 1) % len(directions)
-    return directions[next_index]
+    current_index = DIRECTIONS.index(current_direction)
+    next_index = (current_index + 1) % len(DIRECTIONS)
+    return DIRECTIONS[next_index]
 
 
 def check_for_loops(lab_map):
@@ -61,7 +58,7 @@ def check_for_loops(lab_map):
             visited.add((current_row, current_col, direction))
 
             # Get delta values for movement
-            y, x = move_directions[direction]
+            y, x = MOVE_DIRECTIONS[direction]
             next_row, next_col = current_row + y, current_col + x
 
             # Return False if Index is out of bounds (left the field)
@@ -73,7 +70,7 @@ def check_for_loops(lab_map):
             # based on the new direction.
             if next_row == new_row and next_col == new_col:
                 direction = get_next_direction(direction)
-                y, x = move_directions[direction]
+                y, x = MOVE_DIRECTIONS[direction]
                 next_row, next_col = current_row + y, current_col + x
 
             # Switch up 90° if hitting a "#"
@@ -99,7 +96,7 @@ def calculate_route(lab_map):
     rows, cols = len(lab_map), len(lab_map[0])
 
     def move_forward(current_row, current_col, direction="north"):
-        y, x = move_directions[direction]
+        y, x = MOVE_DIRECTIONS[direction]
         next_row = current_row + y
         next_col = current_col + x
 
@@ -112,7 +109,7 @@ def calculate_route(lab_map):
 
         if next_step == "#":
             direction = get_next_direction(direction)
-            y, x = move_directions[direction]
+            y, x = MOVE_DIRECTIONS[direction]
             next_row = current_row + y
             next_col = current_col + x
 

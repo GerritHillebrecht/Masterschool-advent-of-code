@@ -16,13 +16,9 @@ DIRECTION_SYMBOLS = {
 }
 
 
-
 def get_map():
     with open(join(dirname_input_files, "day_6_input_map.txt")) as handle:
-        return [
-            list(line.strip())
-            for line in handle.readlines()
-        ]
+        return [list(line.strip()) for line in handle]
 
 
 def get_next_direction(current_direction):
@@ -88,7 +84,7 @@ def check_for_loops(lab_map):
                 if does_loop_exist(row, col):
                     loop_hits.append((row, col))
 
-    return loop_hits
+    return len(loop_hits)
 
 
 def calculate_route(lab_map):
@@ -136,4 +132,4 @@ def start_day_challenge(massive_loop=False):
     # 12. Loops
     if massive_loop:
         lab_map = get_map()
-        print(f"12. Number of obstacles that invoke a loop: {len(check_for_loops(lab_map))}")
+        print(f"12. Number of obstacles that invoke a loop: {check_for_loops(lab_map)}")

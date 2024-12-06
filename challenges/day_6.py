@@ -42,7 +42,7 @@ def check_for_loops(lab_map):
         current_row, current_col = start_row, start_col
         # Default direction as given in the task
         direction = "north"
-        # use set to eliminate duplicate entries
+        # use set for faster queries (faster than dict)
         visited = set()
 
         while True:

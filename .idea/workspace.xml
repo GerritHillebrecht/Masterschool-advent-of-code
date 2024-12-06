@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 4">
-      <change afterPath="$PROJECT_DIR$/challenges/day_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputs/day_5_input_requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputs/day_5_input_updates.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session.py" afterDir="false" />
+    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 5">
+      <change afterPath="$PROJECT_DIR$/challenges/asd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenges/day_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/day_6_input_map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/day_6_input_mock_map.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/challenges/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -58,10 +58,14 @@
     "Python.session.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Development/Advent of code/Day1/inputs"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\Advent of code\Day1\inputs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Development\Advent of code\Day1\utils" />
       <recent name="C:\Development\Advent of code\Day1\filestorage" />
@@ -212,7 +216,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733327878543</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[feat]: added day 5">
+      <option name="closed" value="true" />
+      <created>1733410156912</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733410156912</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[feat]: added day 5">
+      <option name="closed" value="true" />
+      <created>1733410252503</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733410252503</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,6 +241,7 @@
     <MESSAGE value="[feat]: added day 2" />
     <MESSAGE value="[feat]: added day 3" />
     <MESSAGE value="[feat]: added day 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]: added day 4" />
+    <MESSAGE value="[feat]: added day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]: added day 5" />
   </component>
 </project>

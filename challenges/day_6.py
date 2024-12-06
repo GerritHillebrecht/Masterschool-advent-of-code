@@ -118,11 +118,9 @@ def calculate_route(lab_map):
 
         move_forward(current_row=next_row, current_col=next_col, direction=direction)
 
-    def calculate_steps(lab_map):
-        return sum(col == "X" for row in lab_map for col in row)
-
     move_forward(current_position[0], current_position[1])
-    return calculate_steps(lab_map)
+
+    return sum(col == "X" for row in lab_map for col in row)
 
 
 def calculate_current_position(lab_map):

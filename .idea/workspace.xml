@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 6">
+      <change afterPath="$PROJECT_DIR$/challenges/day_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/day_7_input_mock_operators.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/day_7_input_operators.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/challenges/day_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/day_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.day_3.executor": "Run",
-    "Python.day_4.executor": "Run",
-    "Python.day_5.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.session.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Development/Advent of code/Day1/inputs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.day_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.session.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Development/Advent of code/Day1/inputs&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Development\Advent of code\Day1\inputs" />
@@ -274,7 +280,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733519536915</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[feat]: added day 6">
+      <option name="closed" value="true" />
+      <created>1733519763774</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733519763774</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[feat]: added day 6">
+      <option name="closed" value="true" />
+      <created>1733520040570</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1733520040570</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

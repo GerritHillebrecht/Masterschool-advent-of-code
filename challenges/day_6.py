@@ -1,4 +1,5 @@
 import sys
+import time
 from os.path import join
 
 from config import dirname_input_files
@@ -132,4 +133,8 @@ def start_day_challenge(massive_loop=False):
     # 12. Loops
     if massive_loop:
         lab_map = get_map()
+        start_time = time.time()
         print(f"12. Number of obstacles that invoke a loop: {check_for_loops(lab_map)}")
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print(f"Calculation took {elapsed_time:.4f} seconds.")

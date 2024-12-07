@@ -1,8 +1,9 @@
 from os.path import join
 from config import dirname_input_files
 from functools import cache
+from operator import add, mul
 
-OPERATORS = ["+", "*"]
+OPERATORS = [add, mul]
 
 
 def get_equations():

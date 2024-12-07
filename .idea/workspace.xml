@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 6">
-      <change afterPath="$PROJECT_DIR$/challenges/day_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputs/day_7_input_mock_operators.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputs/day_7_input_operators.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/day_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/day_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -296,7 +288,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733520040570</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="[feat]: added day 7">
+      <option name="closed" value="true" />
+      <created>1733558761361</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1733558761361</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[feat]: added day 6">
+      <option name="closed" value="true" />
+      <created>1733558772743</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1733558772743</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[feat]: added day 4">
+      <option name="closed" value="true" />
+      <created>1733558782539</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1733558782539</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -304,9 +320,10 @@
     <MESSAGE value="[feat]: refactored for multiple day usage" />
     <MESSAGE value="[feat]: added day 2" />
     <MESSAGE value="[feat]: added day 3" />
-    <MESSAGE value="[feat]: added day 4" />
     <MESSAGE value="[feat]: added day 5" />
+    <MESSAGE value="[feat]: added day 7" />
     <MESSAGE value="[feat]: added day 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]: added day 6" />
+    <MESSAGE value="[feat]: added day 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]: added day 4" />
   </component>
 </project>

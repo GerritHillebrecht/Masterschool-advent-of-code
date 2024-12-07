@@ -31,7 +31,6 @@ def count_word_appearences(grid, word):
     num_rows = len(grid)
     num_cols = len(grid[0])
     word_length = len(word)
-    count = 0
 
     pattern = [
         (0, 1),  # horizontal right

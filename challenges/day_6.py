@@ -79,9 +79,8 @@ def check_for_loops(lab_map):
             # update current_row and current_col and continue the loop
             current_row, current_col = next_row, next_col
 
-    # Loop every element in the field if it is a "."
+    # Loop every element of the guard route
     for row, col in guard_route:
-        print(row, col)
         if does_loop_exist(row, col):
             loop_hits.append((row, col))
 

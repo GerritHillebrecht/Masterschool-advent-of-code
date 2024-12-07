@@ -32,6 +32,7 @@ def check_for_loops(lab_map):
     print("Started checking for loops - may take a while.")
     # Get starting position of input map
     start_row, start_col = calculate_current_position(lab_map)
+    guard_route = calculate_guard_route(lab_map)
 
     loop_hits = []
 
@@ -79,16 +80,14 @@ def check_for_loops(lab_map):
             current_row, current_col = next_row, next_col
 
     # Loop every element in the field if it is a "."
-    for row in range(rows):
-        for col in range(cols):
-            if lab_map[row][col] == ".":
-                if does_loop_exist(row, col):
-                    loop_hits.append((row, col))
+    for row, col in guard_route:
+        if does_loop_exist(row, col):
+            loop_hits.append((row, col))
 
     return len(loop_hits)
 
 
-def calculate_route(lab_map):
+def calculate_guard_route(lab_map):
     current_position = calculate_current_position(lab_map)
     rows, cols = len(lab_map), len(lab_map[0])
 
@@ -114,7 +113,7 @@ def calculate_route(lab_map):
 
     move_forward(current_position[0], current_position[1])
 
-    return sum(col == "X" for row in lab_map for col in row)
+    return [(row, col) for row in lab_map for col in row if col == "X"]
 
 
 def calculate_current_position(lab_map):
@@ -128,7 +127,7 @@ def start_day_challenge(massive_loop=False):
     lab_map = get_map()
 
     # 11. Get unique positions
-    print(f"11. Unvisited positions: {calculate_route(lab_map)}")
+    print(f"11. Unvisited positions: {len(calculate_guard_route(lab_map))}")
 
     # 12. Loops
     if massive_loop:

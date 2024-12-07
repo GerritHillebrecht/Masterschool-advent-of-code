@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 4" />
+    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -312,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733558782539</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="[feat]: added day 7">
+      <option name="closed" value="true" />
+      <created>1733558844312</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1733558844312</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,9 +329,9 @@
     <MESSAGE value="[feat]: added day 2" />
     <MESSAGE value="[feat]: added day 3" />
     <MESSAGE value="[feat]: added day 5" />
-    <MESSAGE value="[feat]: added day 7" />
     <MESSAGE value="[feat]: added day 6" />
     <MESSAGE value="[feat]: added day 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]: added day 4" />
+    <MESSAGE value="[feat]: added day 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]: added day 7" />
   </component>
 </project>

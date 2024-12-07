@@ -114,7 +114,12 @@ def calculate_guard_route(lab_map):
 
     move_forward(current_position[0], current_position[1])
 
-    return [(row_index, col_index) for row_index, row in enumerate(lab_map) for col_index, col in enumerate(row) if col == "X"]
+    return [
+        (row_index, col_index)
+        for row_index, row in enumerate(lab_map)
+        for col_index, col in enumerate(row)
+        if col == "X"
+    ]
 
 
 def calculate_current_position(lab_map):

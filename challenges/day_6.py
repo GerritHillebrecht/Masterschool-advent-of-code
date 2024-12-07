@@ -81,6 +81,7 @@ def check_for_loops(lab_map):
 
     # Loop every element in the field if it is a "."
     for row, col in guard_route:
+        print(row, col)
         if does_loop_exist(row, col):
             loop_hits.append((row, col))
 
@@ -113,7 +114,7 @@ def calculate_guard_route(lab_map):
 
     move_forward(current_position[0], current_position[1])
 
-    return [(row, col) for row in lab_map for col in row if col == "X"]
+    return [(row_index, col_index) for row_index, row in enumerate(lab_map) for col_index, col in enumerate(row) if col == "X"]
 
 
 def calculate_current_position(lab_map):

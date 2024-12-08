@@ -29,7 +29,7 @@ def get_next_direction(current_direction):
 
 
 def check_for_loops(lab_map):
-    print("Started checking for loops - may take a while.")
+    print("Started checking for loops - will take approx. 6 seconds")
     # Get starting position of input map
     start_row, start_col = calculate_current_position(lab_map)
     guard_route = calculate_guard_route(lab_map)

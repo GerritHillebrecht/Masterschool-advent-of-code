@@ -2,8 +2,6 @@ from os.path import join
 
 from config import dirname_input_files
 
-from math import ceil
-
 
 def get_tower_map():
     with open(join(dirname_input_files, "day_8_input_tower_map.txt"), "r") as handle:
@@ -19,11 +17,11 @@ def get_tower_positions(tower_map) -> list[tuple[int, int, str]]:
     ]
 
 
-def get_same_signal_towers(tower_positions, row, col, signal):
+def get_same_signal_towers(tower_positions, tower):
     return [
         same_tower
         for same_tower in tower_positions
-        if same_tower[2] == signal and same_tower != (row, col, signal)
+        if same_tower[2] == tower[2] and same_tower != tower
     ]
 
 
@@ -32,7 +30,7 @@ def get_antinodes(tower_map, tower_positions):
     antinodes = set()
 
     for row, col, signal in tower_positions:
-        same_signal_towers = get_same_signal_towers(tower_positions, row, col, signal)
+        same_signal_towers = get_same_signal_towers(tower_positions, (row, col, signal))
 
         for tower_row, tower_col, tower_signal in same_signal_towers:
             delta_y, delta_x = tower_row - row, tower_col - col
@@ -48,7 +46,7 @@ def get_antinodes_harmony(tower_map, tower_positions):
     antinodes = set()
 
     for row, col, signal in tower_positions:
-        same_signal_towers = get_same_signal_towers(tower_positions, row, col, signal)
+        same_signal_towers = get_same_signal_towers(tower_positions, (row, col, signal))
 
         for tower_row, tower_col, tower_signal in same_signal_towers:
             delta_row, delta_col = tower_row - row, tower_col - col

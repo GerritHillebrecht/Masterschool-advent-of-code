@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: applied Stavros approach to day_6">
-      <change afterPath="$PROJECT_DIR$/challenges/day_8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputs/day_8_input_tower_map.txt" afterDir="false" />
+    <list default="true" id="7547b8f3-19bb-4787-a011-84b09097d049" name="Changes" comment="[feat]: added day 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/day_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/day_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,7 +354,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733565629972</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="[feat]: added day 8">
+      <option name="closed" value="true" />
+      <created>1733659138740</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1733659138740</updated>
+    </task>
+    <task id="LOCAL-00033" summary="[feat]: added day 8">
+      <option name="closed" value="true" />
+      <created>1733659322436</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1733659322436</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -372,6 +383,7 @@
     <MESSAGE value="[feat]: added day 7" />
     <MESSAGE value="[feat]: added day 6" />
     <MESSAGE value="[feat]: applied Stavros approach to day_6" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]: applied Stavros approach to day_6" />
+    <MESSAGE value="[feat]: added day 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]: added day 8" />
   </component>
 </project>

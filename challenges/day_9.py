@@ -33,10 +33,9 @@ def create_files(disk_map) -> list[list[int]]:
 
 def move_whole_files(lst: list):
     numbers_list = [num for num in lst if "." not in num]
-    numbers_list.reverse()
 
-    for index, number_list in enumerate(numbers_list):
-        num_list_index = lst.index(numbers_list[index])
+    for number_list in reversed(numbers_list):
+        num_list_index = lst.index(number_list)
         num_list_length = len(number_list)
 
         available_slots = [
@@ -45,13 +44,10 @@ def move_whole_files(lst: list):
             if "." in item and len(item) >= num_list_length and index < num_list_index
         ]
 
-        if len(available_slots) > 0:
-            # print(available_slots)
-            index_slot, slot_length = available_slots[0]
-            lst.pop(num_list_index)
-            lst.insert(num_list_index, ["." for _ in range(num_list_length)])
-            lst[index_slot] = lst[index_slot][num_list_length:]
-            lst.insert(index_slot, number_list)
+        if available_slots:
+            index_slot = available_slots[0][0]
+            lst[num_list_index] = ["." for _ in range(num_list_length)]
+            lst[index_slot:index_slot + 1] = [number_list] + [lst[index_slot][num_list_length:]]
 
     return lst
 

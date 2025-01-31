@@ -1,15 +1,5 @@
 const fs = require("fs")
 
-
-// Datei asynchron lesen
-//fs.readFile('inputs/day_9_input_disk_map.txt', 'utf8', (err, data) => {
-//  if (err) {
-//    console.error('Fehler beim Lesen der Datei:', err);
-//    return;
-//  }
-//  console.log('Inhalt der Datei:', data);
-//});
-
 function read_data() {
     try {
       return fs.readFileSync('inputs/day_9_input_disk_map.txt', 'utf8');
